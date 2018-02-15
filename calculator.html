@@ -2,17 +2,22 @@
 <title>Calculator</title><meta charset="utf-8">
 
 <script type="text/javascript">
-function cube() {
+function cubo() {
 var num = document.getElementById("n1");
 	num.value = Math.pow(num.value, 3);
+}
+function cuarta() {
+var num = document.getElementById("n1");
+	num.value = Math.pow(num.value, 4);
 }
 </script>
 </head>
 
 <body>
-<h1>Calculadora de ……su nombre y apellidos……</h1>
+<h1>Calculadora de ……Pedro Antonio Lopez Cruz……</h1>
 Numero:
 <input type="text" id="n1"><p>
-<button onclick="cube()"> x^3 </button>
+<button onclick="cubo()"> x^3 </button>
+<button onclick="cuarta()"> x^4 </button>
 </body>
 </html>
